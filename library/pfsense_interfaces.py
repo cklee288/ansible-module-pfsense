@@ -60,7 +60,7 @@ phpcode:
 '''
 
 from ansible.module_utils.basic import AnsibleModule
-from ansible.module_utils.pfsense import write_config, read_config, search, pfsense_check, validate
+from ansible_collections.bevhostcksense.module_utils.pfsense import write_config, read_config, search, pfsense_check, validate
 
 
 def run_module():

@@ -57,7 +57,7 @@ RETURN = '''
 '''
 
 from ansible.module_utils.basic import AnsibleModule
-from ansible.module_utils.pfsense import write_config, read_config, pfsense_check, validate, isstr
+from ansible_collections.bevhostcksense.module_utils.pfsense import write_config, read_config, pfsense_check, validate, isstr
 import os
 
 

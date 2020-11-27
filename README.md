@@ -1,6 +1,7 @@
 # ansible-module-pfsense
 ## Ansible Plugin Module Library For Managing pfSense Firewalls
 ## fork from bevhost pfsense module
+## amend to fit new path stucture
 
 I wrote these modules because I had a lot of firewalls to deploy in a cookie cutter fashion.
 To reduce errors I wanted the firewalls to be configured by script.
